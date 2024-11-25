@@ -1,12 +1,13 @@
-# Flip the coin
+# Lanzar la moneda 
 
 import random
 """
-Create a program to toss the coin and find out if it lands 
-heads or tails
+Crea un programa para lanzar la moneda y saber si sale cara o cruz
 """
+
 list = ["Cara"," Cruz"]
 element = random.choice(list)
+
 if element == "Cara":
     print("Ha salido cara")
 else:

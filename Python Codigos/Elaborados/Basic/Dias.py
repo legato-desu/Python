@@ -1,12 +1,13 @@
-# Weekday
+# Dias de semana
+
 """
-We wish to design a program that writes the names of the days of the 
-week based on the value of a DAY variable entered by keyboard
+Deseamos diseñar un programa que escriba los nombres de los días del semana basada en el valor de una 
+variable DÍA ingresada por teclado
 """
-print("\nDias de la semana")
-print("=================\n")
+
 print("Ingresa un numero y se mostrara el dia de la semana correspondiente")
 day = int(input("Ingrese un numero entre el 1 al 7: "))
+
 match day:
     case 1:
         print("Lunes")

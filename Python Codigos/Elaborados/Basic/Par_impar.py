@@ -1,11 +1,11 @@
-# Even or odd
+# Par o impar
+
 """
-Enter a number by keyboard and display a message 
-indicating whether it is even or odd.
+Ingrese un número por teclado y muestre un mensaje indicando si es par o impar.
 """
-print("\nPar o impar")
-print("===========\n")
+
 number = int(input("Ingrese un numero: "))
+
 if number == (number // 2) * 2:
     print(f"El numero {number} es par.")
 else:
